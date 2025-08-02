@@ -27,6 +27,8 @@ El sistema está dividido en los siguientes módulos:
 
 - **CPU:** interpreta y ejecuta instrucciones, maneja TLB y caché de páginas.
 
+![CPU](cpu/cpu.png)
+
 - **Memoria + SWAP:** gestiona espacio de usuario, tablas de páginas y almacenamiento en swap.
 
 ![Memoria](memoria/resources/memoria.png)
