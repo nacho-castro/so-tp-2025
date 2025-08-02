@@ -1,21 +1,64 @@
-## Checkpoint
+# TP Sistemas Operativos — Episodio IX: The Rise of Gopher
 
-Para cada checkpoint de control obligatorio, se debe crear un tag en el
-repositorio con el siguiente formato:
+Este proyecto es el trabajo práctico de la materia cuatrimestral **Sistemas Operativos**, centrado en la simulación de un sistema operativo distribuido, desarrollado en **Golang**.
 
-```
-checkpoint-{número}
-```
+## 📄 Enunciado
 
-Donde `{número}` es el número del checkpoint.
+Podés consultar el enunciado completo del trabajo en el siguiente enlace:  
+🔗 [Consigna del TP — Google Docs](https://docs.google.com/document/d/1zoFRoBn9QAfYSr0tITsL3PD6DtPzO2sq9AtvE8NGrkc/edit?usp=sharing)
 
-Para crear un tag y subirlo al repositorio, podemos utilizar los siguientes
-comandos:
+---
 
-```bash
-git tag -a checkpoint-{número} -m "Checkpoint {número}"
-git push origin checkpoint-{número}
-```
+## Objetivos del TP
 
-Asegúrense de que el código compila y cumple con los requisitos del checkpoint
-antes de subir el tag.
+- Aplicar conceptos clave de planificación de procesos, administración de memoria y entrada/salida.
+- Implementar una arquitectura distribuida con múltiples módulos comunicándose vía HTTP.
+- Adquirir experiencia práctica en programación de sistemas con **Golang**.
+
+---
+
+## Arquitectura del sistema
+
+El sistema está dividido en los siguientes módulos:
+
+- **Kernel:** planifica procesos (corto, mediano y largo plazo), administra conexiones con CPU, IO y Memoria.
+
+![Kernel](kernel/resources/SO%202025%20KERNEL.png)
+
+- **CPU:** interpreta y ejecuta instrucciones, maneja TLB y caché de páginas.
+
+![Kernel](kernel/resources/SO%202025%20KERNEL.png)
+
+- **Memoria + SWAP:** gestiona espacio de usuario, tablas de páginas y almacenamiento en swap.
+
+![Memoria](memoria/resources/Memoria+SWAP.pdf)
+
+![Memoria](memoria/resources/indexado.pdf)
+
+- **IO:** simula dispositivos de entrada/salida.
+
+Todos los módulos se comunican mediante APIs HTTP, simulando un sistema operativo real distribuido.
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- 🟡 [Golang](https://go.dev/)
+- 🧪 Testing con scripts y logs
+- 🔌 HTTP REST APIs para la comunicación entre módulos
+- 🧵 Concurrencia y sincronización
+
+---
+
+## 🗂 Estructura del proyecto
+
+tp-2025/
+├── cpu/
+├── io/
+├── kernel/
+├── memoria/
+├── utils/
+└── scripts/ # pseudocódigos y tests
+
+
+
