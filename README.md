@@ -9,6 +9,10 @@ Podés consultar el enunciado completo del trabajo en el siguiente enlace:
 
 ---
 
+## 👨‍💻 Integrantes
+
+Realizado por: Joseph Mansilla, Ignacio Castro, Santiago Torres y Marcelo Cabezas
+
 ## Objetivos del TP
 
 - Aplicar conceptos clave de planificación de procesos, administración de memoria y entrada/salida.
