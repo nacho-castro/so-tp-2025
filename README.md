@@ -29,8 +29,10 @@ El sistema está dividido en los siguientes módulos:
 
 - **Memoria + SWAP:** gestiona espacio de usuario, tablas de páginas y almacenamiento en swap.
 
-- [Memoria SWAP (PDF)](memoria/resources/Memoria+SWAP.pdf)
-- [Memoria Indexado (PDF)](memoria/resources/indexado.pdf)
+![Memoria](memoria/resources/memoria.png)
+
+[Memoria SWAP (PDF)](memoria/resources/Memoria+SWAP.pdf)
+[Memoria Indexado (PDF)](memoria/resources/indexado.pdf)
 
 - **IO:** simula dispositivos de entrada/salida.
 
