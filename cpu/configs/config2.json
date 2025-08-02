@@ -1,0 +1,14 @@
+{
+  "ip_self": "127.0.0.1",
+  "port_self": 8085,
+    "ip_memory": "127.0.0.1",
+    "port_memory": 8083,
+    "ip_kernel": "127.0.0.1",
+    "port_kernel": 8081,
+  "tlb_entries": 4,
+  "tlb_replacement": "LRU",
+  "cache_entries": 2,
+  "cache_delay": 50,
+  "cache_replacement": "CLOCK-M",
+  "log_level": "INFO"
+}

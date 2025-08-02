@@ -1,0 +1,45 @@
+{
+  "ip_memoria": "192.168.1.6X",
+  "puerto_memoria": 8083,
+
+  "ip_kernel": "127.0.0.1",
+  "puerto_kernel": 8081,
+
+  "ip_cpu": "192.168.1.6X",
+  "puerto_cpu1": 8085,
+  "puerto_cpu2":8085,
+  "puerto_cpu3": 8086,
+  "puerto_cpu4": 8087,
+
+  "ip_io": "192.168.1.6X",
+  "puerto_io1": 8089,
+  "puerto_io2": 8090,
+  "puerto_io3": 8091,
+  "puerto_io4": 8092,
+
+  "memory_size": 512,
+  "pag_size": 32,
+  "entries_per_page": 32,
+  "number_of_levels": 1,
+  "memory_delay": 500,
+  "swapfile_path": "./swap/swapfile.bin",
+  "swap_delay": 2500,
+  "dump_path": "./dump/",
+  "scripts_path": "./scripts/",
+
+  "scheduler_algorithm": "FIFO",
+  "ready_ingress_algorithm": "FIFO",
+  "alpha": 1,
+  "initial_estimate": 10000,
+  "suspension_time": 1000,
+
+  "tlb_entries": 0,
+  "tlb_replacement": "FIFO",
+  "cache_entries": 0,
+  "cache_delay": 250,
+  "cache_replacement": "CLOCK",
+
+  "type": "DISCO",
+
+  "log_level": "INFO"
+}

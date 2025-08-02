@@ -1,0 +1,14 @@
+{
+  "port_memory": 8083,
+  "ip_memory": "127.0.0.1",
+  "memory_size": 4096,
+  "pag_size": 32,
+  "entries_per_page": 8,
+  "number_of_levels": 3,
+  "memory_delay": 100,
+  "swapfile_path": "./swap/swapfile.bin",
+  "swap_delay": 2500,
+  "log_level": "INFO",
+  "dump_path": "./dump/",
+  "scripts_path": "./scripts/"
+}
