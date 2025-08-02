@@ -27,13 +27,10 @@ El sistema está dividido en los siguientes módulos:
 
 - **CPU:** interpreta y ejecuta instrucciones, maneja TLB y caché de páginas.
 
-![Kernel](kernel/resources/SO%202025%20KERNEL.png)
-
 - **Memoria + SWAP:** gestiona espacio de usuario, tablas de páginas y almacenamiento en swap.
 
-![Memoria](memoria/resources/Memoria+SWAP.pdf)
-
-![Memoria](memoria/resources/indexado.pdf)
+- [Memoria SWAP (PDF)](memoria/resources/Memoria+SWAP.pdf)
+- [Memoria Indexado (PDF)](memoria/resources/indexado.pdf)
 
 - **IO:** simula dispositivos de entrada/salida.
 
