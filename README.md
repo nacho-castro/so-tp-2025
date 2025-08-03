@@ -21,7 +21,7 @@ Podés consultar el enunciado completo del trabajo en el siguiente enlace:
 ### <a href="https://github.com/SantiagoTorres24">Santiago Torres</a>
 <img src="https://avatars.githubusercontent.com/u/135065796?v=4" alt="Santiago Torres" width="76" height="76">
 
-Realizado por: Joseph Mansilla, Ignacio Castro, Santiago Torres y Marcelo Cabezas
+Marcelo Cabezas
 
 ## Objetivos del TP
 
